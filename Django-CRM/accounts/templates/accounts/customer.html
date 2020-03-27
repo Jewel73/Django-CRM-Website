@@ -8,7 +8,7 @@
                 <h5>Customers: </h5>
                 <hr>
                 <a class="btn btn-outline-info btn-sm btn-block " href="{% url 'updateorder' customer.id%}">Update</a>
-                <a class="btn btn-outline-danger btn-sm  btn-block"   href="">Delete</a>
+                <a class="btn btn-outline-info btn-sm  btn-block"   href="{% url 'createupdate' customer.id %}">Place Order</a>
             </div>
         </div>
 
